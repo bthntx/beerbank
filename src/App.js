@@ -19,7 +19,7 @@ class App extends Component {
 
     findBeer = str => {
         let url_template =  (str.length>0)?API_BEERSEARCHNAME_URL.replace('#name#', str):API_BEERLIST_URL;
-        this.setState(({fetchUrl: url_template}))
+        this.setState(({searchName:str,fetchUrl: url_template}))
     };
 
     showFavs = () => {
@@ -28,7 +28,7 @@ class App extends Component {
     };
 
     showHome = () =>{
-        this.setState(({currentPage: 'HOME', fetchUrl: API_BEERLIST_URL}))
+        this.setState(({searchName:'', currentPage: 'HOME', fetchUrl: API_BEERLIST_URL}))
     };
 
     favClick = (id)=>
@@ -44,6 +44,7 @@ class App extends Component {
 
     state = {
         beerInfo: null,
+        searchName: '',
         favourites: [],
         fetchUrl: API_BEERLIST_URL,
         currentPage: 'HOME'
@@ -53,7 +54,7 @@ class App extends Component {
         return (
             <div className="App">
                 <NavMenu clickHandlers={[this.showHome,this.showFavs]}/>
-                <Header clickHandler={this.findBeer}/>
+                <Header clickHandler={this.findBeer} searchName={this.state.searchName}/>
                 <Listing url={this.state.fetchUrl} clickHandler={this.showBeer} favHandler={this.favClick} favList={this.state.favourites} favFilter={(this.state.currentPage==='FAVOURITES')?this.state.favourites:false}/>
                 <BeerInfoBox beer={this.state.beerInfo} closeHandler = {this.hideBeer}/>
             </div>
