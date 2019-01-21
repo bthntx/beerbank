@@ -24,7 +24,7 @@ class App extends Component {
 
     showFavs = () => {
         let url_template =  API_BEERFAV_URL.replace('#ids#', this.state.favourites.join('|'));
-        this.setState(({currentPage: 'FAVOURITES', fetchUrl: url_template}))
+        this.setState(({searchName:'',currentPage: 'FAVOURITES', fetchUrl: url_template}))
     };
 
     showHome = () =>{
