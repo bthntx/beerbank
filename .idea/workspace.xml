@@ -1,29 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c413f607-8756-49a6-ba34-a7a7e5d857e9" name="Default Changelist" comment="BeerBank solution">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/BeerInfoBox/BeerInfoBox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/BeerInfoBox/SimilarBeer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Header/NavMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/InfiniteList/InfiniteList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Listing/Listing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Listing/ListingItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Listing/Loader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utils/UrlAPI.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Utils/findElementIndex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/close.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/star-filled.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/star.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c413f607-8756-49a6-ba34-a7a7e5d857e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -50,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/src/App.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="578">
-              <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+              <caret line="123" selection-start-line="123" selection-end-line="123" />
             </state>
           </provider>
         </entry>
@@ -72,14 +51,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/InfiniteList/InfiniteList.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="503">
-              <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+            <state relative-caret-position="483">
+              <caret line="95" selection-start-line="95" selection-end-line="95" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -188,6 +176,7 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/Components/Listing/ListingItem.js" />
         <option value="$PROJECT_DIR$/src/Components/InfiniteList/InfiniteList.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -315,12 +304,20 @@
       <workItem from="1547822129530" duration="20852000" />
       <workItem from="1547932977696" duration="19427000" />
       <workItem from="1547994256735" duration="301000" />
-      <workItem from="1548003892413" duration="16676000" />
+      <workItem from="1548003892413" duration="16887000" />
     </task>
+    <task id="LOCAL-00001" summary="BeerBank solution">
+      <created>1548041966010</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548041966010</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62264000" />
+    <option name="totallyTimeSpent" value="62475000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
@@ -329,7 +326,7 @@
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="npm" order="1" sideWeight="0.5039578" side_tool="true" visible="true" weight="0.24973376" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32920355" />
+      <window_info anchor="bottom" id="Messages" weight="0.32920355" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32920355" />
@@ -341,11 +338,11 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32920355" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32920355" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Project" order="3" sideWeight="0.49604222" visible="true" weight="0.15388711" />
+      <window_info active="true" anchor="right" content_ui="combo" id="Project" order="3" sideWeight="0.49604222" visible="true" weight="0.15388711" />
       <window_info anchor="right" id="Remote Host" order="4" />
       <window_info anchor="right" id="Database" order="5" />
     </layout>
@@ -527,13 +524,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
-          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
         </state>
       </provider>
     </entry>
@@ -559,11 +553,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/InfiniteList/InfiniteList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+        <state relative-caret-position="483">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
         </state>
       </provider>
     </entry>
