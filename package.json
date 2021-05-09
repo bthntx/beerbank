@@ -8,7 +8,7 @@
     "css-loader": "^2.1.0",
     "gh-pages": "^2.0.1",
     "isomorphic-fetch": "^2.2.1",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.21",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.3"
